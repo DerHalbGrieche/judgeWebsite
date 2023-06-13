@@ -74,4 +74,17 @@ a:active {
   left: 50%;
   bottom: -25px;
   transform: translate(-50%, -50%);
+}
+
+.embeddings {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .embeddings {
+    margin-left: 0;
+    transform: translate(23%);
+  }
 }/*# sourceMappingURL=style.css.map */

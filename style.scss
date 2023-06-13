@@ -66,3 +66,14 @@ a:active { text-decoration: none; }
     transform: translate(-50%, -50%);
 }
 
+.embeddings {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+@media only screen and (max-width: 768px) {
+    .embeddings{
+        margin-left: 0;
+        transform: translate(23%);
+    }
+}
