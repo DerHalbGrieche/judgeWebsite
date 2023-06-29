@@ -1,4 +1,4 @@
-.navBar {
+.navBarList {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,23 +8,24 @@
   justify-content: center;
 }
 
-.navBar li {
+.navBarList li {
   display: inline-block;
 }
 
-.navBar li a {
+.navBarList li a {
   display: block;
   padding: 8px;
   font-size: larger;
   text-align: center;
   padding: 20px;
   color: #fff;
-  font: Arial bold;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-image: url(./pattern.png);
   background-size: 300px;
+  margin: 0;
 }
 
 .iconTJ {
@@ -39,12 +40,13 @@ body {
   background-color: #5865F2;
   width: 200px;
   text-align: center;
-  font: bold 36px Arial;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   padding: 0;
   border: 10px;
   margin: auto;
   block-size: 45px;
+  font-size: xx-large;
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,4 +89,26 @@ a:active {
     margin-left: 0;
     transform: translate(23%);
   }
+}
+.topBar {
+  background-color: #2e3131;
+  overflow: hidden;
+  height: 80px;
+}
+
+.topBar p {
+  float: left;
+  color: #ffffff;
+  font-size: larger;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.topBarTextContainer {
+  height: 80px;
+  width: 110px;
 }/*# sourceMappingURL=style.css.map */
